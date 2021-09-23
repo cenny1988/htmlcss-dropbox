@@ -23,6 +23,10 @@ body{
     height: 200px; */
 }
 
+.container-center.smaller{
+    width: 80%;
+}
+
 /* impo button */
 .btn{
     color: #000;
@@ -128,4 +132,29 @@ header{
 }
 .col-dx img{
     width: 100%;
+}
+
+/* sezione dropbox business prezzi */
+
+#dropbox-business-price{
+    margin-top: 100px;
+}
+.content h2, .radio-box{
+    margin: 30px 0;
+}
+
+.col-price{
+    width: calc(100% / 3 - 40px);
+    margin: 30px 20px;
+    float: left;
+    border: rgb(175, 175, 175) 1px solid;
+    /* debug */
+    /* background-color: #0d61ff; */
+    min-height: 400px;
+}
+
+.head-col-price{
+    border-bottom: 1px solid rgb(175, 175, 175);
+    text-align: center;
+    padding: 10px;
 }
