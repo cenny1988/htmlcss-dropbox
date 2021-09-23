@@ -19,8 +19,8 @@ body{
     width: 90%;
     margin: 0 auto;
     /* debug */
-    background-color: red;
-    height: 200px;
+    /* background-color: red;
+    height: 200px; */
 }
 
 /* impo button */
@@ -44,8 +44,8 @@ header{
     top: 0;
     left: 0;
     z-index: 9999;
-    height: 80px;
-    line-height: 80px;
+    height: 81px;
+    line-height: 81px;
     background-color: #fff;
 }
 
@@ -93,8 +93,35 @@ header{
 /* sezione jumbotron */
 .jumbotron{
     background-color: #b4d0e7;
-    min-height: 400px;
+    min-height: 500px;
+    margin-top: 80px;
     /* debug */
     /* height: 500px; */
 }
 
+.jumbotron h1{
+    color: #000;
+    padding: 30px 0;
+    font-size: 50px;
+    font-family: 700;
+}
+
+.col-sx{
+    float: left;
+    width: 30%;
+    margin: 0 30px 30px 0;
+}
+.col-dx{
+    float: left;
+    
+}
+.col-sx p{
+    margin-bottom: 10px;
+}
+.col-sx span{
+    display: inline-block;
+    margin: 10px 0;
+}
+.col-sx .fa-arrow-down{
+    font-size: 40px;
+}
