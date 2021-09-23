@@ -108,12 +108,8 @@ header{
 
 .col-sx{
     float: left;
-    width: 30%;
-    margin: 0 30px 30px 0;
-}
-.col-dx{
-    float: left;
-    
+    width: 40%;
+    padding-right: 40px;
 }
 .col-sx p{
     margin-bottom: 10px;
@@ -124,4 +120,12 @@ header{
 }
 .col-sx .fa-arrow-down{
     font-size: 40px;
+}
+
+.col-dx{
+    float: left;
+    width: 60%;
+}
+.col-dx img{
+    width: 100%;
 }
