@@ -7,3 +7,81 @@
 body{
     font-family: 'Open Sans', sans-serif, Arial, Helvetica, sans-serif;
 }
+
+.clearfix::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.btn{
+    color: #000;
+    font-size: 14px;
+    padding: 6px 20px;
+    text-decoration: none;
+    /* debug */
+    /* border: 1px solid black; */
+}
+
+.btn.btn-blue{
+    background-color: #0d61ff;
+    color: #fff;
+}
+
+/* header */
+header{
+    position: fixed;
+    width: 100vw;
+    max-width: 1280px;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    height: 80px;
+    line-height: 80px;
+    /* debug */
+    /* background-color: red; */
+}
+
+#main-nav{
+    height: 100%;
+    position: relative;
+    padding: 0 20px;
+}
+
+.nav-sx{
+    width: 50%;
+    float: left;
+    /* debug */
+}
+.nav-dx{
+    width: 50%;
+    float: right;
+    text-align: end;
+    /* debug */
+}
+
+#logo{
+    text-decoration: none;
+}
+#logo a{
+    display: inline-block;
+}
+#logo img{
+    vertical-align: middle;
+}
+
+#main-nav ul{
+    display: inline-block;
+    /* list-style-type: none; */
+}
+#main-nav li{
+    display: inline-block;
+}
+#main-nav li a{
+    color: #000;
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
