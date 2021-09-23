@@ -27,6 +27,11 @@ body{
     width: 80%;
 }
 
+hr{
+    margin: 20px 0;
+    width: 20%;
+    color: rgb(175, 175, 175);
+}
 /* impo button */
 .btn{
     color: #000;
@@ -142,15 +147,15 @@ header{
 .content h2, .radio-box{
     margin: 30px 0;
 }
+.radio-box label{
+    margin-right: 20px;
+}
 
 .col-price{
     width: calc(100% / 3 - 40px);
     margin: 30px 20px;
     float: left;
     border: rgb(175, 175, 175) 1px solid;
-    /* debug */
-    /* background-color: #0d61ff; */
-    min-height: 400px;
 }
 
 .head-col-price{
@@ -162,19 +167,25 @@ header{
 .content-col-price{
     font-size: 11px;
     padding: 10px 25px;
+    margin-bottom: 150px;
 }
 .content-col-price span{
+    margin: 10px 0 5px;
     display: block;
 }
 .content-col-price h4{
     font-size: 15px;
 }
+.content-col-price h5{
+    font-size: 12px;
+}
 .content-col-price h4, .price{
     font-weight: bold;
-    margin: 15px 0;
+    margin-top: 15px;
 
 }
 .content-col-price ul{
+    margin: 40px 0;
     list-style: none;
 }
 
@@ -184,4 +195,7 @@ header{
 
 .content-col-price i{
     margin-right: 4px;
+}
+.content-col-price span a, .fa-check{
+    color: #0d61ff;
 }
