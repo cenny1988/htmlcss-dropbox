@@ -256,6 +256,10 @@ header{
     float: left;
     width: 50%;
 }
+/* .col-floatright-50{
+    float: right;
+    width: 50%;
+} */
 .col-floatleft-50>img{
     width: 90%;
 }
@@ -279,4 +283,9 @@ header{
 }
 .clearfix.min-h>.col-price{
     border: none;
+}
+
+/* sezione sotto i 6 item */
+.container-center>.half-widh{
+    width: 50%;
 }
