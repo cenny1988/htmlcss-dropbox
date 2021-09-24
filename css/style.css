@@ -156,11 +156,12 @@ header{
 /* sezione dropbox business prezzi */
 
 #dropbox-business-price{
-    margin-top: 100px;
+    margin: 100px 0;
 }
-.content h2, .radio-box{
+.radio-box{
     margin: 30px 0;
 }
+
 .radio-box label{
     margin-right: 20px;
 }
@@ -168,7 +169,6 @@ header{
 .col-price{
     width: calc(100% / 3 - 40px);
     float: left;
-    /* margin: 30px 0; */
     border: rgb(175, 175, 175) 1px solid;
 }
 
@@ -176,18 +176,20 @@ header{
     margin: 0 60px;
 }
 
-.head-col-price{
+.head-col{
     border-bottom: 1px solid rgb(175, 175, 175);
     text-align: center;
     padding: 10px;
 }
 
-.content-col-price{
+.content-col{
     font-size: 11px;
     padding: 10px 25px;
+}
+.col-price>.content-col{
     min-height: 750px;
 }
-.content-col-price>.text-deco{
+.content-col>.text-deco{
     margin: 10px 0;
 }
 
@@ -202,12 +204,12 @@ header{
     text-align: left;
 }
 
-.content-col-price>a{
+.content-col>a{
     margin: 10px 0;
     display: block;
 }
 
-.content-col-price a, .fa-check{
+.content-col a, .fa-check{
     color: #0d61ff;
 }
 
@@ -219,7 +221,7 @@ header{
 
 
 
-.content-col-full{
+.content-col{
     font-size: 11px;
     padding: 10px 25px;
 }    
