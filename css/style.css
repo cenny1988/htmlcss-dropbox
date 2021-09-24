@@ -33,6 +33,10 @@ hr{
     color: rgb(175, 175, 175);
 }
 
+h2{
+    font-size: 35px;
+    margin: 35px 0;
+}
 h4{
     font-size: 25px;
     font-weight: bold;
@@ -168,13 +172,15 @@ header{
 }
 
 .col-price{
+    margin-top: 35px;
     width: calc(100% / 3 - 40px);
     float: left;
     border: rgb(175, 175, 175) 1px solid;
 }
 
-#col-price-middle{
-    margin: 0 60px;
+.col-price.middle{
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .head-col{
@@ -257,4 +263,20 @@ header{
 .col-floatleft-50>p{
     line-height: 25px;
     margin: 20px 0;
+}
+
+
+/* sezione 6 item */
+.top-item img{
+    width: 100%;
+}
+.bottom-item{
+    padding: 8px;
+    min-height: 200px;
+}
+.clearfix.min-h{
+    min-height: 600px;
+}
+.clearfix.min-h>.col-price{
+    border: none;
 }
