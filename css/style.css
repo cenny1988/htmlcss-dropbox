@@ -64,7 +64,7 @@ h5{
 /* header */
 header{
     position: fixed;
-    width: 100vw;
+    width: 100%;
     max-width: 1280px;
     top: 0;
     left: 0;
@@ -288,4 +288,41 @@ header{
 /* sezione sotto i 6 item */
 .container-center>.half-widh{
     width: 50%;
+}
+
+/* sezione carousel */
+.bg-gray{
+    background-color: #F5F5F5;
+}
+.carousel-aside{
+    float: left;
+    width: 30%;
+}
+.carousel-center{
+    float: left; 
+}
+/* .row{
+    min-height: 150px;
+} */
+.row>.col-floatleft-50{
+    min-height: 150px;
+    position: relative;
+}
+.row>.col-floatleft-50 img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* classi img svg del carousel */
+.change-svg-color {
+    filter: invert(93%) sepia(0%) saturate(0%) hue-rotate(280deg) brightness(106%) contrast(106%);
+  }
+.green-svg{
+    background-color: #a2d39b;
+}
+.darkred-svg{
+    background-color: #61082b;
 }
