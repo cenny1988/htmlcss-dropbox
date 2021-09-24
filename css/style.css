@@ -32,6 +32,16 @@ hr{
     width: 20%;
     color: rgb(175, 175, 175);
 }
+
+h4{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px 0 10px;
+}
+h5{
+    font-size: 12px;
+}
+
 /* impo button */
 .btn{
     color: #000;
@@ -67,11 +77,13 @@ header{
 .nav-sx{
     width: 50%;
     float: left;
+    padding-right: 100px;
 }
 .nav-dx{
     width: 50%;
     float: right;
     text-align: end;
+    padding-left: 100px;
 }
 
 #logo{
@@ -82,6 +94,7 @@ header{
 }
 #logo img{
     vertical-align: middle;
+    height: 20px;
 }
 
 #main-nav ul{
@@ -104,6 +117,7 @@ header{
     background-color: #b4d0e7;
     min-height: 500px;
     margin-top: 80px;
+    padding-top: 80px;
     /* debug */
     /* height: 500px; */
 }
@@ -153,8 +167,8 @@ header{
 
 .col-price{
     width: calc(100% / 3 - 40px);
-    margin: 30px 20px;
     float: left;
+    margin: 30px 20px;
     border: rgb(175, 175, 175) 1px solid;
 }
 
@@ -167,35 +181,62 @@ header{
 .content-col-price{
     font-size: 11px;
     padding: 10px 25px;
-    margin-bottom: 150px;
+    min-height: 750px;
 }
-.content-col-price span{
-    margin: 10px 0 5px;
-    display: block;
-}
-.content-col-price h4{
-    font-size: 15px;
-}
-.content-col-price h5{
-    font-size: 12px;
-}
-.content-col-price h4, .price{
-    font-weight: bold;
-    margin-top: 15px;
-
-}
-.content-col-price ul{
-    margin: 40px 0;
-    list-style: none;
-}
-
-.content-col-price li{
+.content-col-price>.text-deco{
     margin: 10px 0;
 }
 
-.content-col-price i{
-    margin-right: 4px;
+.fa-ul>li {
+    margin-top: 10px;
 }
-.content-col-price span a, .fa-check{
+.fa-ul{
+    padding: 10px 0;
+    margin-left: 24px;
+}
+.fa-li {
+    text-align: left;
+}
+
+.content-col-price>a{
+    margin: 10px 0;
+    display: block;
+}
+
+.content-col-price a, .fa-check{
     color: #0d61ff;
 }
+
+.col-full{
+    margin: 30px 20px;
+    border: rgb(175, 175, 175) 1px solid;
+
+}
+
+
+
+.content-col-full{
+    font-size: 11px;
+    padding: 10px 25px;
+}    
+.float-70{
+    width: 70%;
+    float: left;
+}
+.float-30{
+    width: 30%;
+    float: left;
+}
+.float-30>a{
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.float-70>p{
+    margin: 25px 0;
+}
+/* .col-floatleft-50{
+    background-color: #b4d0e7;
+} */
+
