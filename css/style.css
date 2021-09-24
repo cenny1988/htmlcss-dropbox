@@ -300,6 +300,8 @@ header{
 }
 .carousel-center{
     float: left; 
+    width: 40%;
+    padding: 25px;
 }
 /* .row{
     min-height: 150px;
@@ -316,6 +318,9 @@ header{
     transform: translate(-50%, -50%);
 }
 
+.item-carousel>img{
+    width: 25%;
+}
 /* classi img svg del carousel */
 .change-svg-color {
     filter: invert(93%) sepia(0%) saturate(0%) hue-rotate(280deg) brightness(106%) contrast(106%);
@@ -325,4 +330,22 @@ header{
 }
 .darkred-svg{
     background-color: #61082b;
+}
+.red-svg{
+    background-color: #d50c1f;
+}
+.azul-svg{
+    background-color: #b4d0e7;
+}
+.darkazul-svg{
+    background-color: #1f93ce;
+}
+.flashred-svg{
+    background-color: #f91b1d;
+}
+.blue-svg{
+    background-color: #0d2381;
+}
+.yellow-svg{
+    background-color: #fdd82f;
 }
