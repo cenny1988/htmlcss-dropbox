@@ -34,9 +34,9 @@ hr{
 }
 
 h4{
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
-    margin: 15px 0 10px;
+    margin: 15px 0 15px;
 }
 h5{
     font-size: 12px;
@@ -48,11 +48,13 @@ h5{
     font-size: 14px;
     padding: 6px 20px;
     text-decoration: none;
+    border: 1px solid rgb(175, 175, 175);
 }
 
 .btn.btn-blue{
     background-color: #0d61ff;
     color: #fff;
+    border: none;
 }
 
 /* header */
@@ -85,16 +87,15 @@ header{
     text-align: end;
     padding-left: 100px;
 }
+/* .nav-dx:last-child{
+    display: inline;
+} */
 
 #logo{
     text-decoration: none;
 }
-#logo a{
-    display: inline-block;
-}
 #logo img{
     vertical-align: middle;
-    height: 20px;
 }
 
 #main-nav ul{
@@ -104,10 +105,10 @@ header{
     display: inline-block;
 }
 #main-nav li a{
-    color: #000;
+    /* color: #000; */
     font-size: 14px;
-    margin: 10px;
-    padding: 10px;
+    /* margin: 10px; */
+    padding: 10px 20px;
     text-decoration: none;
 }
 
@@ -213,14 +214,13 @@ header{
     color: #0d61ff;
 }
 
+
+/* colonna a larghezza intera sotto le 3 collone price */
 .col-full{
     margin-top: 30px;
     border: rgb(175, 175, 175) 1px solid;
 
 }
-
-
-
 .content-col{
     font-size: 11px;
     padding: 10px 25px;
@@ -238,11 +238,23 @@ header{
     margin-top: 15px;
     text-align: center;
 }
-
 .float-70>p{
     margin: 25px 0;
 }
-/* .col-floatleft-50{
-    background-color: #b4d0e7;
-} */
 
+
+
+
+/* sezione con 2 colonne flottanti */
+.col-floatleft-50{
+    float: left;
+    width: 50%;
+}
+.col-floatleft-50>img{
+    width: 90%;
+}
+
+.col-floatleft-50>p{
+    line-height: 25px;
+    margin: 20px 0;
+}
