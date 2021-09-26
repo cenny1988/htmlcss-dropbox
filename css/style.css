@@ -46,6 +46,22 @@ h5{
     font-size: 12px;
 }
 
+
+
+/* effetti on Hover */   
+#main-nav a:hover{
+    border-bottom: 2px solid #0d61ff;
+}
+.btn:hover{
+    background-color: rgba(170, 170, 170, .8);
+}
+.btn.btn-white:hover{
+    background-color: rgba(170, 170, 170, .8);
+}
+.btn.btn.btn-blue:hover{
+    opacity: .8;
+}
+
 /* impo button */
 .btn{
     color: #000;
@@ -53,6 +69,7 @@ h5{
     padding: 6px 20px;
     text-decoration: none;
     border: 1px solid rgb(175, 175, 175);
+    background-color: #fff;
 }
 
 .btn.btn-blue{
@@ -96,6 +113,9 @@ header{
     text-align: end;
     padding-left: 100px;
 }
+/* .nav-dx:last-child{
+    display: inline;
+} */
 
 #logo{
     text-decoration: none;
@@ -117,10 +137,6 @@ header{
     padding: 10px 20px;
     text-decoration: none;
 }
-    /* navbar on Hover */   
-    #main-nav li:hover{
-        border-bottom: 2px solid #0d61ff;
-    }
 
 
 /* sezione jumbotron */
