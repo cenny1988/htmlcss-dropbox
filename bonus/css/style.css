@@ -426,6 +426,16 @@ header{
     font-size: 10px;
 }
 
+.border{
+    height: 100%;
+    width: 100%;
+    border: 6px solid #d0e9cd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0%;
+}
 
 /* classi img svg del carousel */
 .change-svg-color {
