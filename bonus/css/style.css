@@ -423,11 +423,19 @@ header{
     padding: 5px;
     display: none;
 }
-.faq:hover .answer{
-    display: block;
-    /* height: 200px; */
+.faq-icon>i:last-child{
+    display: none;
 }
 
+.faq:hover .answer{
+    display: block;
+}
+.faq:hover .faq-icon>i:last-child{
+    display: block;
+}
+.faq:hover .faq-icon>i:first-child{
+    display: none;
+}
 
 
 
