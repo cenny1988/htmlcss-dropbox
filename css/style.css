@@ -49,8 +49,9 @@ h5{
 
 
 /* effetti on Hover */   
-#main-nav a:hover{
+#main-nav li:hover{
     border-bottom: 2px solid #0d61ff;
+    text-decoration: none;
 }
 .btn:hover{
     background-color: rgba(170, 170, 170, .8);
@@ -392,4 +393,11 @@ header{
 }
 #contact a{
     margin: 35px 0;
+}
+
+
+/* sezione accordion */
+.faq{
+    border-top: 2px solid #F5F5F5;
+    padding: 20px 0;
 }
