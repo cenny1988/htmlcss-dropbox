@@ -429,6 +429,7 @@ header{
   }
 .green-svg{
     background-color: #a2d39b;
+    border: 8px solid #d0e9cd;
 }
 .darkred-svg{
     background-color: #61082b;
