@@ -18,9 +18,6 @@ body{
 .container-center{
     width: 90%;
     margin: 0 auto;
-    /* debug */
-    /* background-color: red;
-    height: 200px; */
 }
 
 .container-center.smaller{
@@ -31,6 +28,13 @@ hr{
     margin: 20px 0;
     width: 10%;
     color: rgb(175, 175, 175);
+}
+
+h1{
+    color: #000;
+    padding: 30px 0;
+    font-size: 50px;
+    font-family: 700;
 }
 
 h2{
@@ -80,7 +84,6 @@ h5{
 }
 
 .btn.btn-white{
-    /* background-color: #fff; */
     border: none;
 }
 
@@ -133,7 +136,6 @@ header{
 .nav-sx>ul>li>a, .nav-dx>ul>li>a{
     color: #000;
     font-size: 14px;
-    /* margin: 10px; */
     padding: 10px 20px;
     text-decoration: none;
 }
@@ -172,9 +174,6 @@ header{
 .jumbotron{
     min-height: 500px;
     margin-top: 80px;
-    /* padding-top: 80px; */
-    /* debug */
-    /* height: 500px; */
 }
 .jumbotron>.container-center{
     position: relative;
@@ -185,12 +184,6 @@ header{
     background-color: #b4d0e7;
 }
 
-.jumbotron h1{
-    color: #000;
-    padding: 30px 0;
-    font-size: 50px;
-    font-family: 700;
-}
 
 .col-sx{
     float: left;
@@ -352,10 +345,7 @@ header{
     float: left;
     width: 50%;
 }
-/* .col-floatright-50{
-    float: right;
-    width: 50%;
-} */
+
 .col-floatleft-50>img{
     width: 90%;
 }
@@ -445,7 +435,6 @@ header{
   }
 .green-svg{
     background-color: #a2d39b;
-    /* border: 8px solid #d0e9cd; */
 }
 .darkred-svg{
     background-color: #61082b;
@@ -490,7 +479,6 @@ header{
     border-top: 2px solid #F5F5F5;
     padding: 20px 0;
     position: relative;
-    /* overflow: hidden; */
 }
 .faq-icon{
     position: absolute;
@@ -531,14 +519,12 @@ footer{
     color: #fff;
     padding: 60px 0 30px;
     font-size: 12px;
-    /* min-height: 400px; */
 }
 
 .col-footer{
     width: calc( 100% / 5 );
     float: left;
     min-height: 200px;
-    /* background-color: #b4d0e7; */
 }
 .col-footer ul{
     list-style: none;
