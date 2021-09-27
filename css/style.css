@@ -333,10 +333,15 @@ header{
     width: 40%;
     padding: 40px;
 }
-.row>.col-floatleft-50{
+.row{
     min-height: 150px;
+}
+.row>.col-floatleft-50{
+    height: 100%;
+    padding-top: 50%;
     position: relative;
 }
+
 .row>.col-floatleft-50 img{
     width: 50%;
     position: absolute;
