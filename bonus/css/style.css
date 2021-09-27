@@ -401,6 +401,7 @@ header{
 
 #accordion{
     margin: 50px 0;
+    min-height: 400px;
 }
 .faq{
     border-top: 2px solid #F5F5F5;
