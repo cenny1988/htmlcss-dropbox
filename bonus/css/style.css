@@ -124,7 +124,6 @@ header{
 
 .nav-sx>ul, .nav-dx>ul{
     display: inline-block;
-
 }
 .nav-sx>ul>li, .nav-dx>ul>li{
     display: inline-block;
@@ -157,6 +156,10 @@ header{
     display: none;
     position: absolute;
     background-color: #fff;
+    top: 83px;
+    left: 0;
+    text-align: center;
+    width: 100%;
 }
 #main-nav li:hover .hidden-nav{
     display: block;
