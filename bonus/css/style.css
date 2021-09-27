@@ -114,9 +114,6 @@ header{
     text-align: end;
     padding-left: 100px;
 }
-/* .nav-dx:last-child{
-    display: inline;
-} */
 
 #logo{
     text-decoration: none;
@@ -125,19 +122,46 @@ header{
     vertical-align: middle;
 }
 
-#main-nav ul{
+.nav-sx>ul, .nav-dx>ul{
     display: inline-block;
+
 }
-#main-nav li{
+.nav-sx>ul>li, .nav-dx>ul>li{
     display: inline-block;
+    position: relative;
+
 }
-#main-nav li a{
+.nav-sx>ul>li>a, .nav-dx>ul>li>a{
     color: #000;
     font-size: 14px;
     /* margin: 10px; */
     padding: 10px 20px;
     text-decoration: none;
 }
+.hidden-nav>ul{
+    list-style: none;
+}
+
+.hidden-nav>ul>li{
+    color: #000;
+    font-size: 14px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.hidden-nav a{
+    text-decoration: none;
+    color: #000;
+
+}
+.hidden-nav{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+}
+#main-nav li:hover .hidden-nav{
+    display: block;
+}
+
 
 
 /* sezione jumbotron */
