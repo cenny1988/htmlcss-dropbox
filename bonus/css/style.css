@@ -234,6 +234,7 @@ header{
     padding: 5px;
     vertical-align: middle;
     position: relative;
+    cursor: pointer;
 }
 
 .radiobox-selected{
@@ -257,10 +258,12 @@ header{
 
 .radio-box{
     margin: 30px 0;
+    line-height: 22px;
 }
 
 .radio-box label{
     margin-right: 20px;
+    vertical-align: middle;
 }
 
 .col-price{
