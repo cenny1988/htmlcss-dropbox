@@ -29,7 +29,7 @@ body{
 
 hr{
     margin: 20px 0;
-    width: 20%;
+    width: 10%;
     color: rgb(175, 175, 175);
 }
 
@@ -409,4 +409,36 @@ header{
     position: absolute;
     right: 15px;
     top: 17px;
+}
+
+/* footer */
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 60px 0 30px;
+    font-size: 12px;
+    /* min-height: 400px; */
+}
+
+.col-footer{
+    width: calc( 100% / 5 );
+    float: left;
+    min-height: 200px;
+    /* background-color: #b4d0e7; */
+}
+.col-footer ul{
+    list-style: none;
+    
+}
+.col-footer h5{
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+footer div:last-child{
+    padding: 20px 0;
+}
+
+footer i:last-child{
+    padding: 0 10px;
 }
