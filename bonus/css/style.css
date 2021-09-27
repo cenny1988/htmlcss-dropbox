@@ -203,6 +203,10 @@ header{
     display: inline-block;
     margin: 10px 0;
 }
+.col-sx span>a{
+    color: #000;
+}
+
 .col-sx .fa-arrow-down{
     font-size: 40px;
 }
