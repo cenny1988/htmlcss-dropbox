@@ -459,7 +459,13 @@ footer{
 }
 .col-footer ul{
     list-style: none;
-    
+}
+.col-footer li{
+    margin-bottom: 5px;
+}
+.col-footer li a{
+    color: #fff;
+    text-decoration: none;
 }
 .col-footer h5{
     font-size: 14px;
