@@ -406,12 +406,32 @@ header{
     border-top: 2px solid #F5F5F5;
     padding: 20px 0;
     position: relative;
+    /* overflow: hidden; */
 }
 .faq-icon{
     position: absolute;
     right: 15px;
     top: 17px;
 }
+.faq>h5{
+    cursor: pointer;
+}
+
+/* accordion effect */
+.answer{
+    padding: 5px;
+    display: none;
+}
+.faq:hover .answer{
+    display: block;
+    /* height: 200px; */
+}
+
+
+
+
+
+
 
 /* footer */
 footer{
